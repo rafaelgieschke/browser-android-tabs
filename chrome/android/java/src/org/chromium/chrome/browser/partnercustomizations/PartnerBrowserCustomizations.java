@@ -293,6 +293,7 @@ public class PartnerBrowserCustomizations {
         if (commandLine.hasSwitch(ChromeSwitches.PARTNER_HOMEPAGE_FOR_TESTING)) {
             return commandLine.getSwitchValue(ChromeSwitches.PARTNER_HOMEPAGE_FOR_TESTING);
         }
-        return sHomepage;
+        return "https://brave.com/";
+        // return sHomepage;
     }
 }
